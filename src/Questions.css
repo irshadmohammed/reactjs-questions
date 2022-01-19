@@ -1,0 +1,25 @@
+.questions__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  row-gap: 15px;
+}
+
+.questions__container {
+  background-color: floralwhite;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 50px 0 rgb(0 0 0 / 100%);
+  padding: 20px 15px;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.questions__qn > h3 {
+  font-size: 22px;
+  font-family: 'georgia';
+}
+
+.questions__qn > h5 {
+  font-size: 18px;
+}

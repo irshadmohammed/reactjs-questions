@@ -1,0 +1,20 @@
+.home__container {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  /* text-align: center; */
+}
+
+@media(max-width: 967px){
+  .home__container {
+    width: 100%;
+  }
+}
+
+.home__heading {
+  text-align: center;
+  margin: auto;
+  padding: 20px 0;
+  font-size: 30px;
+}
